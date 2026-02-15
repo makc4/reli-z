@@ -7,14 +7,14 @@ const products = [
   {name:"Електростанок", price:2399, img:"img/generator.webp"},
   {name:"Телефон Xiaomi", price:7999, img:"img/xiaomi_phone.webp"},
   {name:"Ноутбук Lenovo", price:25999, img:"img/lenovo_laptop.webp"},
-  {name:"Телевізор LG", price:18999, img:"img/lg_tv.url"},
-  {name:"Блендер Philips", price:1499, img:"img/blender.url"},
-  {name:"Пилосос Samsung", price:8999, img:"img/vacuum.url"},
-  {name:"Мікрохвильовка Gorenje", price:4999, img:"img/microwave_gorenje.jpg"},
-  {name:"Холодильник Bosch", price:32999, img:"img/bosch_fridge.jpg"},
-  {name:"Навушники Sony", price:3499, img:"img/sony_headphones.jpg"},
-  {name:"Планшет Apple iPad", price:21999, img:"img/ipad.jpg"},
-  {name:"Монітор Acer", price:7999, img:"img/acer_monitor.jpg"}
+  {name:"Телевізор LG", price:18999, img:"img/lg_tv.webp"},
+  {name:"Блендер Philips", price:1499, img:"img/blender.webp"},
+  {name:"Пилосос Samsung", price:8999, img:"img/vacuum.webp"},
+  {name:"Мікрохвильовка Gorenje", price:4999, img:"img/microwave_gorenje.webp"},
+  {name:"Холодильник Bosch", price:32999, img:"img/bosch_fridge.webp"},
+  {name:"Навушники Sony", price:3499, img:"img/sony_headphones.webp"},
+  {name:"Планшет Apple iPad", price:21999, img:"img/ipad.webp"},
+  {name:"Монітор Acer", price:7999, img:"img/acer_monitor.webp"}
 ];
 
 const container = document.getElementById("products");
