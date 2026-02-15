@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Магазин техніки</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+  <div class="logo"></div>
+  <nav>
+    <a href="#banner">Головна</a>
+    <a href="#products">Каталог</a>
+    <a href="#footer">Контакти</a>
+  </nav>
+
+  <div class="header-actions">
+    <button id="themeToggle">🌙</button>
+    <div class="cart" id="cartToggle">🛒 <span id="cartCount">0</span></div>
+  </div>
+</header>
+
+<section class="banner" id="banner">
+  <div class="banner-box">
+    <h2>Супер Акція!</h2>
+    <button>Купити зараз</button>
+  </div>
+</section>
+
+<section class="search">
+  <input type="text" id="searchInput" placeholder="Пошук...">
+  <button id="searchBtn">ЗНАЙТИ</button>
+</section>
+
+<section class="products" id="products"></section>
+
+<section class="sale">
+  <img src="img/lg_tv.jpg" alt="">
+  <div>
+    <h3>Телевізор Samsung 50"</h3>
+    <p class="old-price">29900</p>
+    <p class="new-price">28999</p>
+    <button>Купити</button>
+  </div>
+</section>
+
+<!-- Модальне вікно корзини -->
+<div id="cartModal" class="cart-modal">
+  <div class="cart-content">
+    <h3>Ваша корзина</h3>
+    <ul id="cartItems"></ul>
+    <p id="cartTotal">Сума: 0 грн</p>
+    <button id="closeCart">Закрити</button>
+  </div>
+</div>
+
+<footer id="footer">
+  <p>Контакти: 443435555</p>
+  <p>Email: example@mail.com</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
