@@ -351,3 +351,10 @@ body.dark .cart-content {
   background: #1f2937;
   color: white;
 }
+
+.maps {
+    display: flex;
+    align-items:right;
+    width: 350px;
+    height: 350px;
+}
