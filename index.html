@@ -27,7 +27,7 @@
 <section class="banner" id="banner">
   <div class="banner-box">
     <h2>Супер Акція!</h2>
-    <button>Купити зараз</button>
+    <button id="shopNowBtn">Купити зараз</button>
   </div>
 </section>
 
@@ -39,20 +39,27 @@
 <section class="products" id="products"></section>
 
 <section class="sale">
-  <img src="img/lg_tv.jpg" alt="">
+  <img src="img/lg_tv50s.jpg" alt="Телевізор Samsung 50&quot;">
   <div>
     <h3>Телевізор Samsung 50"</h3>
-    <p class="old-price">29900</p>
-    <p class="new-price">28999</p>
-    <button>Купити</button>
+    <p class="old-price">29900 грн</p>
+    <p class="new-price">28999 грн</p>
+    <button class="add-sale"
+      data-name="Телевізор Samsung 50&quot;"
+      data-price="28999"
+      data-img="img/lg_tv50s.jpg">
+      Купити
+    </button>
   </div>
 </section>
 
+<!-- Модальне вікно корзини -->
 <div id="cartModal" class="cart-modal">
   <div class="cart-content">
     <h3>Ваша корзина</h3>
     <ul id="cartItems"></ul>
     <p id="cartTotal">Сума: 0 грн</p>
+    <button id="checkoutBtn">Оформити замовлення</button>
     <button id="closeCart">Закрити</button>
   </div>
 </div>
